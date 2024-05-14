@@ -95,6 +95,7 @@ task owlReason(type:io.opencaesar.owl.reason.OwlReasonTask, group:"oml", depends
     reportPath = file('build/reports/reasoning.xml')
 }
 
+
 /*
  * Start the headless Fuseki server
  * @seeAlso https://github.com/opencaesar/owl-tools/blob/master/owl-doc/README.md
