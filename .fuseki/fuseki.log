@@ -85,3 +85,12 @@
 [2024-05-14 17:11:13] Fuseki     INFO  [24] 200 OK (115 ms)
 [2024-05-14 17:11:13] Fuseki     INFO  [26] 200 OK (114 ms)
 [2024-05-14 17:11:13] Fuseki     INFO  [25] 200 OK (114 ms)
+[2024-05-14 17:15:52] Fuseki     INFO  [27] GET http://localhost:3030/tutorial2/sparql?query=select%20?g%20%7B%20graph%20?g%20%7B%20?o%20a%20%3Chttp://www.w3.org/2002/07/owl%23Ontology%3E%20%7D%20%7D
+[2024-05-14 17:15:52] Fuseki     INFO  [27] Query = select ?g { graph ?g { ?o a <http://www.w3.org/2002/07/owl#Ontology> } }
+[2024-05-14 17:15:52] Fuseki     INFO  [27] 200 OK (3 ms)
+[2024-05-14 19:01:00] Fuseki     INFO  [28] GET http://localhost:3030/tutorial2/sparql?query=select%20?g%20%7B%20graph%20?g%20%7B%20?o%20a%20%3Chttp://www.w3.org/2002/07/owl%23Ontology%3E%20%7D%20%7D
+[2024-05-14 19:01:00] Fuseki     INFO  [28] Query = select ?g { graph ?g { ?o a <http://www.w3.org/2002/07/owl#Ontology> } }
+[2024-05-14 19:01:00] Fuseki     INFO  [28] 200 OK (2 ms)
+[2024-05-15 12:04:26] Fuseki     INFO  [29] GET http://localhost:3030/tutorial2/sparql?query=select%20?g%20%7B%20graph%20?g%20%7B%20?o%20a%20%3Chttp://www.w3.org/2002/07/owl%23Ontology%3E%20%7D%20%7D
+[2024-05-15 12:04:26] Fuseki     INFO  [29] Query = select ?g { graph ?g { ?o a <http://www.w3.org/2002/07/owl#Ontology> } }
+[2024-05-15 12:04:26] Fuseki     INFO  [29] 200 OK (3 ms)
